@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newproject.HomeController">
+   <children>
+      <VBox prefHeight="760.0" prefWidth="309.0" spacing="10.0" style="-fx-background-color: TRANSPARENT;">
+         <children>
+            <Label id="labelheader" prefHeight="141.0" prefWidth="315.0" stylesheets="@home.css" />
+            <Button fx:id="register1" mnemonicParsing="false" prefHeight="48.0" prefWidth="309.0" text="DASHBOARD">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="apointment2" mnemonicParsing="false" onAction="#appointmentbtn" prefHeight="48.0" prefWidth="309.0" text="APPOINTMENT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="register1" mnemonicParsing="false" onAction="#registrationbtn" prefHeight="48.0" prefWidth="309.0" text="PATIENT REGISTRATION">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="manage2" mnemonicParsing="false" onAction="#management" prefHeight="47.0" prefWidth="309.0" text="PATIENT MANAGEMENT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="309.0" text="HEALTH CHECKUP">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="docRev" mnemonicParsing="false" onAction="#reviewDoc" prefHeight="48.0" prefWidth="309.0" text="REVIEW DOCTOR">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="manage3" mnemonicParsing="false" onAction="#management" prefHeight="48.0" prefWidth="309.0" text="INPATIENT MANAGEMENT">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="bill1" mnemonicParsing="false" onAction="#billingSys" prefHeight="48.0" prefWidth="309.0" text="INPATIENT BILLING">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               <Button fx:id="nurses" mnemonicParsing="false" onAction="#nurses" prefHeight="48.0" prefWidth="309.0" text="NURSES">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+               
+               
+             </children>
+      </VBox>
+      <Pane layoutX="308.0" prefHeight="148.0" prefWidth="1043.0" style="-fx-background-color: RED;">
+         <children>
+            <TextField layoutX="604.0" layoutY="54.0" opacity="0.33" prefHeight="43.0" prefWidth="185.0" promptText="Search..." />
+         </children>
+      </Pane>
+      <Button id="btnicon1" fx:id="register2" layoutX="335.0" layoutY="156.0" mnemonicParsing="false" onAction="#registrationbtn" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon2" fx:id="donateB" layoutX="558.0" layoutY="163.0" mnemonicParsing="false" onAction="#donateBlood" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon4" fx:id="bill2" layoutX="993.0" layoutY="156.0" mnemonicParsing="false" onAction="#billingSys" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon3" fx:id="doctors" layoutX="784.0" layoutY="163.0" mnemonicParsing="false" onAction="#nursesdata" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon9" fx:id="manage1" layoutX="450.0" layoutY="358.0" mnemonicParsing="false" onAction="#management" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon8" layoutX="673.0" layoutY="364.0" mnemonicParsing="false" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon6" fx:id="apointment" layoutX="1118.0" layoutY="347.0" mnemonicParsing="false" onAction="#appointmentbtn" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon7" layoutX="899.0" layoutY="364.0" mnemonicParsing="false" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" />
+      <Button id="btnicon5" layoutX="1186.0" layoutY="156.0" mnemonicParsing="false" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon10" layoutX="562.0" layoutY="550.0" mnemonicParsing="false" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon12" layoutX="1007.0" layoutY="543.0" mnemonicParsing="false" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Button id="btnicon11" fx:id="nurses2" layoutX="788.0" layoutY="550.0" mnemonicParsing="false" onAction="#nursesdata" prefHeight="120" prefWidth="120" style="-fx-background-radius: 100;" stylesheets="@home.css" text="" />
+      <Label layoutX="1116.0" layoutY="477.0" prefHeight="36.0" prefWidth="132.0" text="APPOINTMENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="766.0" layoutY="677.0" prefHeight="36.0" prefWidth="203.0" text="NURSES STATION" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="782.0" layoutY="295.0" prefHeight="36.0" prefWidth="132.0" text="DOCTOR'S ARM" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="562.0" layoutY="283.0" prefHeight="36.0" prefWidth="149.0" text="DONATE BLOOD" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="908.0" layoutY="515.0" prefHeight="36.0" prefWidth="132.0" text="THEATRE" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="900.0" layoutY="495.0" prefHeight="36.0" prefWidth="132.0" text="OPERATION" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="967.0" layoutY="285.0" prefHeight="36.0" prefWidth="195.0" text="PATIENT'S BILLING" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1151.0" layoutY="286.0" prefHeight="36.0" prefWidth="195.0" text="ASSETS MANAGEMENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="507.0" prefHeight="36.0" prefWidth="132.0" text="MANAGEMENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="487.0" prefHeight="36.0" prefWidth="132.0" text="OUT-PATIENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="549.0" layoutY="699.0" prefHeight="36.0" prefWidth="132.0" text="MANAGEMENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="560.0" layoutY="678.0" prefHeight="36.0" prefWidth="158.0" text="EMPLOYEE" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="649.0" layoutY="489.0" prefHeight="36.0" prefWidth="195.0" text="HEALTH'S CHECKUP" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1001.0" layoutY="695.0" prefHeight="36.0" prefWidth="132.0" text="ACCOUNTING" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1015.0" layoutY="670.0" prefHeight="36.0" prefWidth="132.0" text="DOCTOR'S" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="297.0" prefHeight="36.0" prefWidth="132.0" text="REGISTRATION" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="277.0" prefHeight="36.0" prefWidth="132.0" text="IN-PATIENT" textFill="#fc0505">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

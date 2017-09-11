@@ -1,0 +1,12 @@
+
+#headerlogo{
+    -fx-background-image: url(back.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    
+}
+#login{
+    -fx-background-image: url(strokecenter.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1350.0" styleClass="tabpane" stylesheets="@home.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newproject.HomeController">
+   <children>
+      <Pane id="headerleft" prefHeight="99.0" prefWidth="1350.0" style="-fx-background-color: red;" stylesheets="@home.css" />
+      <Label layoutX="71.0" layoutY="135.0" prefHeight="25.0" prefWidth="150.0" text="NAME OF DOCTOR" textFill="#fc0202">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="69.0" layoutY="186.0" prefHeight="525.0" prefWidth="681.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="648.0" minWidth="10.0" prefWidth="581.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0" minWidth="10.0" prefWidth="47.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0" minWidth="10.0" prefWidth="42.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0" minWidth="10.0" prefWidth="34.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="28.0" minHeight="5.0" prefHeight="28.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="47.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="33.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="34.0" prefWidth="637.0" text="2" textFill="#ff0505" GridPane.columnIndex="2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="1" textFill="#ff0505" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Punctuality:" textFill="#e9fc0d" GridPane.rowIndex="12">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Attitude:" textFill="#e9fc0d" GridPane.rowIndex="13">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Flexibility:" textFill="#e9fc0d" GridPane.rowIndex="14">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Communication and interaction with staff: " textFill="#e9fc0d" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Communication and interaction with fellow providers: " textFill="#e9fc0d" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Timeliness, legibility, and thoroughness of documentation" textFill="#e9fc0d" GridPane.rowIndex="9">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Financial contribution and workload: " textFill="#e9fc0d" GridPane.rowIndex="10">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Communication with referring physicians (including timeliness and thoroughness):" textFill="#e9fc0d" GridPane.rowIndex="8">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Patient satisfaction: " textFill="#e9fc0d" GridPane.rowIndex="7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Communication and interaction with patients and families:       " textFill="#e9fc0d" GridPane.rowIndex="6">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Continuing Medical Education (CME) Requirements met:" textFill="#e9fc0d" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Appropriateness of Diagnostics and Therapeutics:" textFill="#e9fc0d" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Adherence to QA standards: " textFill="#e9fc0d" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="3" textFill="#ff0505" GridPane.columnIndex="3">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="4" textFill="#ff0505" GridPane.columnIndex="4">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Quality of care: " textFill="#f50303">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label prefHeight="34.0" prefWidth="637.0" text="Participation in group activities, meetings, projects:          " textFill="#e9fc0d" GridPane.rowIndex="11">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="r1" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <RadioButton fx:id="r56" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="14" />
+            <RadioButton fx:id="r52" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+            <RadioButton fx:id="r54" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+            <RadioButton fx:id="r55" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+            <RadioButton fx:id="r51" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+            <RadioButton fx:id="r53" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+            <RadioButton fx:id="r44" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <RadioButton fx:id="r48" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+            <RadioButton fx:id="r50" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+            <RadioButton fx:id="r49" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+            <RadioButton fx:id="r47" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+            <RadioButton fx:id="r40" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <RadioButton fx:id="r46" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+            <RadioButton fx:id="r43" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <RadioButton fx:id="r36" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <RadioButton fx:id="r39" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <RadioButton fx:id="r32" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <RadioButton fx:id="r34" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <RadioButton fx:id="r30" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <RadioButton fx:id="r28" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <RadioButton fx:id="r26" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <RadioButton fx:id="r24" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <RadioButton fx:id="r22" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <RadioButton fx:id="r38" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <RadioButton fx:id="r25" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <RadioButton fx:id="r37" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <RadioButton fx:id="r21" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <RadioButton fx:id="r20" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <RadioButton fx:id="r18" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <RadioButton fx:id="r17" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <RadioButton fx:id="r16" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <RadioButton fx:id="r12" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <RadioButton fx:id="r8" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <RadioButton fx:id="r11" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <RadioButton fx:id="r9" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <RadioButton fx:id="r13" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <RadioButton fx:id="r10" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <RadioButton fx:id="r7" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <RadioButton fx:id="r31" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <RadioButton fx:id="r35" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <RadioButton fx:id="r19" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <RadioButton fx:id="r14" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <RadioButton fx:id="r23" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <RadioButton fx:id="r42" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <RadioButton fx:id="r41" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <RadioButton fx:id="r2" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <RadioButton fx:id="r3" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <RadioButton fx:id="r15" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <RadioButton fx:id="r29" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <RadioButton fx:id="r27" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <RadioButton fx:id="r45" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <RadioButton fx:id="r33" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <RadioButton fx:id="r4" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <RadioButton fx:id="r6" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <RadioButton fx:id="r5" mnemonicParsing="false" onAction="#radioPressed" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <TextArea layoutX="989.0" layoutY="329.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="commentLab" layoutX="986.0" layoutY="267.0" prefHeight="25.0" prefWidth="178.0" text="Comments:" textFill="#fc0202">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitReview" layoutX="1014.0" layoutY="633.0" mnemonicParsing="false" onAction="#submitBackReview" prefHeight="55.0" prefWidth="150.0" text="SUBMIT REVIEW" textFill="#e9fc0d">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="reviewCombo" layoutX="241.0" layoutY="135.0" onAction="#initializer" onTouchMoved="#initializer" prefWidth="150.0" promptText="Please Select..." />
+   </children>
+</Pane>

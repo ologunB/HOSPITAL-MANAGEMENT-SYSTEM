@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newproject.HomeController">
+   <children>
+      <Pane id="headerleft" prefHeight="98.0" prefWidth="1350.0" style="-fx-background-color: red;" stylesheets="@home.css">
+         <children>
+            <TextField fx:id="search3" layoutX="761.0" layoutY="29.0" opacity="0.4" prefHeight="42.0" prefWidth="200.0" promptText="FIRSTNAME">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font></TextField>
+            <TextField fx:id="search4" layoutX="959.0" layoutY="29.0" opacity="0.4" prefHeight="42.0" prefWidth="200.0" promptText="LASTNAME">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </TextField>
+            <Label fx:id="display" layoutX="388.0" layoutY="35.0" prefHeight="30.0" prefWidth="297.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="1075.0" layoutY="583.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="77.0" text="CANCEL">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="employeesearch" layoutX="1205.0" layoutY="583.0" mnemonicParsing="false" onAction="#getEmployeeDB" prefHeight="42.0" prefWidth="77.0" text="SELECT">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</Pane>

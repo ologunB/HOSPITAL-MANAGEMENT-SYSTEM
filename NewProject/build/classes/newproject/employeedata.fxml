@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newproject.HomeController">
+   <children>
+      <TabPane prefHeight="750.0" prefWidth="1350.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="        Personal Details     ">
+               <content>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tabpane" stylesheets="@home.css">
+                     <children>
+                        <GridPane layoutX="134.0" layoutY="71.0" prefHeight="610.0" prefWidth="616.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="251.0" minWidth="10.0" prefWidth="215.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="315.0" minWidth="10.0" prefWidth="298.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Home Phone" textFill="#e9fc0d" GridPane.rowIndex="9">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="e11" prefHeight="32.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                              <TextField fx:id="e22" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <TextField fx:id="e9" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <TextField fx:id="e8" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <TextField fx:id="e12" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                              <TextField fx:id="e6" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextField fx:id="e13" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                              <TextField fx:id="e5" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField fx:id="e4" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="e3" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="e10" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                              <Label prefHeight="34.0" prefWidth="186.0" text="E-mail" textFill="#e9fc0d" GridPane.rowIndex="8">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Social Sec. No." textFill="#e9fc0d" GridPane.rowIndex="7">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Contact By" textFill="#e9fc0d" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Gender" textFill="#e9fc0d" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Address" textFill="#e9fc0d" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="BirthDate" textFill="#e9fc0d" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="MiddleName" textFill="#e9fc0d" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="LastName" textFill="#e9fc0d" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="First Name" textFill="#e9fc0d">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="HomeLOC" textFill="#e9fc0d" GridPane.rowIndex="11">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Office Phone" textFill="#e9fc0d" GridPane.rowIndex="10">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Marital Status" textFill="#e9fc0d" GridPane.rowIndex="12">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Race" textFill="#e9fc0d" GridPane.rowIndex="13">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Language" textFill="#e9fc0d" GridPane.rowIndex="14">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <Label prefHeight="34.0" prefWidth="186.0" text="Employment Status" textFill="#e9fc0d" GridPane.rowIndex="15">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="e14" prefHeight="32.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                              <TextField fx:id="e15" prefHeight="32.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                              <TextField fx:id="e1" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" />
+                              <TextField fx:id="e2" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="e7" prefHeight="33.0" prefWidth="256.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                           </children>
+                        </GridPane>
+                        <Label layoutX="236.0" layoutY="22.0" prefHeight="34.0" prefWidth="186.0" text="PERSONAL INFO" textAlignment="RIGHT" textFill="#f50303">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="1055.0" layoutY="558.0" mnemonicParsing="false" onAction="#back" prefHeight="42.0" prefWidth="107.0" text="BACK" textFill="#f80505">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </content>
+            </Tab>
+          <Tab text="         Employment Details           ">
+               <content>
+                  <Pane prefHeight="200.0" prefWidth="200.0" styleClass="tabpane" stylesheets="@home.css">
+                     <children>
+                        <GridPane layoutX="41.0" layoutY="97.0" prefHeight="544.0" prefWidth="557.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label prefHeight="38.0" prefWidth="279.0" text="LEVEL" textFill="#e9fc0d">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="e16" prefHeight="34.0" prefWidth="216.0" GridPane.columnIndex="1" />
+                              <Label prefHeight="38.0" prefWidth="177.0" text="PRESENT SALARY" textFill="#e9fc0d" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="159.0" text="ALLOWANCES" textFill="#e9fc0d" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="159.0" text="START SALARY" textFill="#e9fc0d" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="e17" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="e20" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField fx:id="e21" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <TextField fx:id="e19" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="e18" prefHeight="38.0" prefWidth="216.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label prefHeight="38.0" prefWidth="279.0" text="TOTAL" textFill="#e9fc0d" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="38.0" prefWidth="279.0" text="OTHERS" textFill="#e9fc0d" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </GridPane>
+                        <Label layoutX="62.0" layoutY="38.0" prefHeight="38.0" prefWidth="238.0" text="SALARY INFORMATION" textFill="#fc0202">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="860.0" layoutY="485.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="137.0" text="CLEAR" textFill="#fc0303">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="859.0" layoutY="393.0" mnemonicParsing="false" onAction="#back" prefHeight="55.0" prefWidth="137.0" text="CANCEL" textFill="#fc0303">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="860.0" layoutY="578.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="137.0" text="SUBMIT" textFill="#fc0303">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+               </content></Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

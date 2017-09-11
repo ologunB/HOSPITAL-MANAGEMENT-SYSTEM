@@ -1,0 +1,117 @@
+#labelheader{
+    
+    -fx-background-image: url(back2.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#labelheader2{
+    
+    -fx-background-image: url(back.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon1{
+    -fx-background-image: url(i1.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon2{
+    -fx-background-image: url(2.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon3{
+    -fx-background-image: url(3.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon4{
+    -fx-background-image: url(4.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon5{
+    -fx-background-image: url(5.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon6{
+    -fx-background-image: url(6.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon7{
+    -fx-background-image: url(7.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon8{
+    -fx-background-image: url(15.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon9{
+    -fx-background-image: url(9.png);
+   -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon10{
+    -fx-background-image: url(10.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon11{
+    -fx-background-image: url(11.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#btnicon12{
+    -fx-background-image: url(12.png);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#appointpane{
+    -fx-background-image: url(appohead.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#appointhead{
+    -fx-background-image: url(head3.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+} 
+#appointhead2{
+    -fx-background-image: url(head3.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.tabpane{
+   -fx-background-color: linear-gradient(to top,  #006495, #004C70, #0093D1)
+   
+}
+#billingBack{
+	-fx-background-image: url(head.jpg);
+    -fx-background-position: left;
+    -fx-background-repeat: no-repeat;
+}
+ #regback{
+	-fx-background-image: url(regback.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+ #regback2{
+	-fx-background-image: url(regback.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+} 
+#regback3{
+	-fx-background-image: url(regback.jpg);
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+ #headerleft{
+	-fx-background-image: url(back.jpg);
+	-fx-background-position: left; 
+	-fx-background-repeat: no-repeat;
+}
